@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMINGSHIT 2K26</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>🔥 KMINGSHIT 2K26 🔥</h2>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#memories">Memories</a></li>
+</ul>
+
+</nav>
+
+<header>
+
+<h1>KMINGSHIT 2K26</h1>
+
+<p>Seven Brothers • One Bond • One Journey ❤️</p>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+<img src="images/andro.png">
+<h2>Andro</h2>
+<button onclick="openFriend('Andro')">View Profile</button>
+</div>
+
+<div class="card">
+<img src="images/crislee.png">
+<h2>Crislee</h2>
+<button onclick="openFriend('Crislee')">View Profile</button>
+</div>
+
+<div class="card">
+<img src="images/darel.png">
+<h2>Darel</h2>
+<button onclick="openFriend('Darel')">View Profile</button>
+</div>
+
+<div class="card">
+<img src="images/ford.png">
+<h2>Ford</h2>
+<button onclick="openFriend('Ford')">View Profile</button>
+</div>
+
+<div class="card">
+<img src="images/jerson.png">
+<h2>Jerson</h2>
+<button onclick="openFriend('Jerson')">View Profile</button>
+</div>
+
+<div class="card">
+<img src="images/mike.png">
+<h2>Mike</h2>
+<button onclick="openFriend('Mike')">View Profile</button>
+</div>
+
+<div class="card">
+<img src="images/shanon.png">
+<h2>Shanon</h2>
+<button onclick="openFriend('Shanon')">View Profile</button>
+</div>
+
+</div>
+
+<section id="memories">
+
+<h1>📸 OUR MEMORIES</h1>
+
+<div class="memory-grid">
+
+<img src="images/memory1.png" onclick="openMemory(this.src)">
+<img src="images/memory2.png" onclick="openMemory(this.src)">
+<img src="images/memory3.png" onclick="openMemory(this.src)">
+<img src="images/memory4.png" onclick="openMemory(this.src)">
+<img src="images/memory5.png" onclick="openMemory(this.src)">
+<img src="images/memory6.png" onclick="openMemory(this.src)">
+
+</div>
+
+</section>
+
+<div id="viewer" class="viewer">
+
+<span class="close" onclick="closeMemory()">&times;</span>
+
+<img id="fullImage">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
